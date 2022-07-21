@@ -222,7 +222,7 @@ export default {
   },
   methods: {
     checkpw() {
-      if (this.hasher(this.password) == -68217307) {
+      if (this.hasher(this.password) == 1384961728) {
         this.unlocked = true
       }
     },

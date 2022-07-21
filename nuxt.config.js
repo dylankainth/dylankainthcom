@@ -19,7 +19,7 @@ export default {
           'sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor',
         crossorigin: 'anonymous',
       },
-      { rel: 'icon', href: '~/assets/templogowhite.png' },
+      { rel: 'icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
     ],
     script: [
