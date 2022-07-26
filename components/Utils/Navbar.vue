@@ -34,7 +34,7 @@
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               
             <li class="nav-item" v-for="(value,key) in routes" v-bind:key="key">
-                <NuxtLink class="nav-link" :to="value">
+                <NuxtLink class="nav-link" :to="value"  v-on:click.native="hideoffcanvas">
                     {{key}}
                 </NuxtLink>
             </li>
@@ -51,6 +51,14 @@ export default {
   data(){
     return {
       routes : {"Home":"/","Projects":"/projects","Contact":"/contact"}
+    }
+  },
+  mounted(){
+    this.bsOffcanvas = new bootstrap.Offcanvas('#offcanvasNavbar')
+  },
+  methods:{
+    hideoffcanvas() {
+      this.bsOffcanvas.hide()
     }
   }
 }
