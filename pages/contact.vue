@@ -100,7 +100,6 @@
       v-show="unlocked"
     >
       <h1>Contact me non-professionally</h1>
-      <h6>plz dont spam :)</h6>
 
       <div class="display-6 pt-2">
         <a href="tel:+447880986879" class="contactlink" target="_blank">
