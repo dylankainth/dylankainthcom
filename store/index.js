@@ -1,6 +1,33 @@
 export const state = () => ({
   projects: {
     
+    '76400d06-4f24-41c7-a717-943f946f2b21': {
+      title: 'Project Agouti',
+      people: { status: 'Group Projet', icon: 'groups' },
+      type: { status: 'Arduino Hardware', icon: 'memory' },
+      image: 'agouti0.jpg',
+      longdescription: `I was the project assistant director for 'Agouti' - an intelligent, weatherproof acoustic monitoring device that can be easily deployed for the recording and analyzing of audio data. \n We employed edgeML to automatically tag the microphone data for key event classes like insect sounds and birdsongs, human activity (e.g. vehicles), and logging (e.g. chainsaw noises), storing these tags together with their respective audios for human inspection. \n The device also records readings from temperature, humidity, and light sensors to link audio with the real world, quantifying exactly how the environment affects species' behaviours. \n Agouti broadly addresses "Challenge 2: Wildlife/Biodiversity Conservation": Non-intrusive monitoring of endangered wildlife: The acoustic recording system takes periodic 5-second recordings of its surrounding soundscape, which is then analysed and stored together with the audio. \n Human-wildlife conflict prevention/mitigation: by examaning audio for sounds of suspicious activity (like logging or transport noises), it can detect for illegal activities detrimental to the environment.`,
+      timeframedescription: 'September 2022',
+      longimages: [
+        'agouti1.jpg'
+      ],
+      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Read Project',
+          color: 'success',
+          hyperlink:
+            'https://www.hackster.io/team-enigma/project-agouti-df34a4',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/agouti-acoustics',
+        },
+      ],
+    },
     
     
 
@@ -116,7 +143,7 @@ export const state = () => ({
       longdescription: `I wired up a LCD screen to my ESP32. I then managed to get it to display weather data from openweathermap and the current song playing on Spotify through the Spotify API `,
       timeframedescription: 'March 2022',
       longimages: ['esplcd0.jpg'],
-      tags: ['Esp32','api','Spotify','Microelectronics'],
+      tags: ['Esp32','api','Spotify','Microelectronics','Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -195,7 +222,7 @@ export const state = () => ({
       longdescription: `I set up the on-board computer for the Greenpower team Silver Arrow Racing. It uses an MXCHIP IoT devkit to connect to thingsboard hosted on AWS EC2.`,
       timeframedescription: 'September 2022',
       longimages: ['silverarrowcomputer1.png'],
-      tags: ['MXCHIP','IoT','AWS','Thingsboard','AZ3166','Microelectronics','Greenpower','School'],
+      tags: ['MXCHIP','IoT','AWS','Thingsboard','AZ3166','Microelectronics','Greenpower','School', 'Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
