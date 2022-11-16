@@ -3,10 +3,10 @@ export const state = () => ({
     
     '76400d06-4f24-41c7-a717-943f946f2b21': {
       title: 'Project Agouti',
-      people: { status: 'Group Projet', icon: 'groups' },
+      people: { status: 'Group Project', icon: 'groups' },
       type: { status: 'Arduino Hardware', icon: 'memory' },
       image: 'agouti0.jpg',
-      longdescription: `I was the project assistant director for 'Agouti' - an intelligent, weatherproof acoustic monitoring device that can be easily deployed for the recording and analyzing of audio data. \n We employed edgeML to automatically tag the microphone data for key event classes like insect sounds and birdsongs, human activity (e.g. vehicles), and logging (e.g. chainsaw noises), storing these tags together with their respective audios for human inspection. \n The device also records readings from temperature, humidity, and light sensors to link audio with the real world, quantifying exactly how the environment affects species' behaviours. \n Agouti broadly addresses "Challenge 2: Wildlife/Biodiversity Conservation": Non-intrusive monitoring of endangered wildlife: The acoustic recording system takes periodic 5-second recordings of its surrounding soundscape, which is then analysed and stored together with the audio. \n Human-wildlife conflict prevention/mitigation: by examaning audio for sounds of suspicious activity (like logging or transport noises), it can detect for illegal activities detrimental to the environment.`,
+      longdescription: `I was the project assistant director for 'Agouti' - an intelligent, weatherproof acoustic monitoring device that can be easily deployed for the recording and analyzing of audio data. \n We employed edgeML to automatically tag the microphone data for key event classes like insect sounds and birdsongs, human activity (e.g. vehicles), and logging (e.g. chainsaw noises), storing these tags together with their respective audios for human inspection. \n The device also records readings from temperature, humidity, and light sensors to link audio with the real world, quantifying exactly how the environment affects species' behaviours. `,
       timeframedescription: 'September 2022',
       longimages: [
         'agouti1.jpg'
