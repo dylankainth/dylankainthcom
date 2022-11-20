@@ -32,13 +32,39 @@
               style="background-color:#2F5452"
             >
               <h1>Visit TE.</h1>
-              <a type="button" class="btn btn-outline-light btn-lg" href="https://teamenigma.ml/">Let's Go</a>
+              <a type="button" class="btn btn-outline-light btn-lg" href="https://te.harrowschool.io/">Let's Go</a>
 
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div
+      v-if="$route.params.tag == 'School'"
+      class="p-5 mb-4 rounded-3 shadow"
+      style="background-color: #7a7d7d; color: white; font-family: Poppins"
+    >
+      <div class="container-fluid py-5">
+        <div class="row align-items-start">
+          <div class="col my-auto">
+            <h1 class="display-2 fw-bold">Computer Science Society</h1>
+            <p>Some of these projects may be on the school Computer Science Society website.</p>
+          </div>
+          <div class="col my-auto">
+            <div
+              class="h-100 p-5 rounded-3 shadow d-flex flex-column"
+              style="background-color:#393939"
+            >
+              <h1>Visit TE.</h1>
+              <a type="button" class="btn btn-outline-light btn-lg" href="https://css.harrowschool.io/">Let's Go</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div
       class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
