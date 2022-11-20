@@ -56,7 +56,7 @@
               class="h-100 p-5 rounded-3 shadow d-flex flex-column"
               style="background-color:#393939"
             >
-              <h1>Visit TE.</h1>
+              <h1>Visit CSS website</h1>
               <a type="button" class="btn btn-outline-light btn-lg" href="https://css.harrowschool.io/">Let's Go</a>
 
             </div>
