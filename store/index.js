@@ -28,6 +28,34 @@ export const state = () => ({
         },
       ],
     },
+
+    '76400d06-4f24-41c7-a717-243f946f2b21': {
+      title: 'Project Agouti',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'Arduino Hardware', icon: 'memory' },
+      image: 'agouti0.jpg',
+      longdescription: `I was the project assistant director for 'Agouti' - an intelligent, weatherproof acoustic monitoring device that can be easily deployed for the recording and analyzing of audio data. \n We employed edgeML to automatically tag the microphone data for key event classes like insect sounds and birdsongs, human activity (e.g. vehicles), and logging (e.g. chainsaw noises), storing these tags together with their respective audios for human inspection. \n The device also records readings from temperature, humidity, and light sensors to link audio with the real world, quantifying exactly how the environment affects species' behaviours. `,
+      timeframedescription: 'September 2022',
+      longimages: [
+        'agouti1.jpg'
+      ],
+      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Read Project',
+          color: 'success',
+          hyperlink:
+            'https://www.hackster.io/team-enigma/project-agouti-df34a4',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/agouti-acoustics',
+        },
+      ],
+    },
     
     
 
