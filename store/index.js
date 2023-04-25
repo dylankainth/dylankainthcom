@@ -1,7 +1,7 @@
 export const state = () => ({
   projects: {
     
-    '76400d06-4f24-41c7-a717-243f946f2b21': {
+    '76100306-4f24-41c7-a717-243f946f2b21': {
       title: 'moduLo',
       people: { status: 'Group Project', icon: 'groups' },
       type: { status: 'Arduino Hardware', icon: 'memory' },
