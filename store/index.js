@@ -1,30 +1,32 @@
 export const state = () => ({
   projects: {
     
-    '76400d06-4f24-41c7-a717-943f946f2b21': {
-      title: 'Project Agouti',
+    '76400d06-4f24-41c7-a717-243f946f2b21': {
+      title: 'moduLo',
       people: { status: 'Group Project', icon: 'groups' },
       type: { status: 'Arduino Hardware', icon: 'memory' },
-      image: 'agouti0.jpg',
-      longdescription: `I was the project assistant director for 'Agouti' - an intelligent, weatherproof acoustic monitoring device that can be easily deployed for the recording and analyzing of audio data. \n We employed edgeML to automatically tag the microphone data for key event classes like insect sounds and birdsongs, human activity (e.g. vehicles), and logging (e.g. chainsaw noises), storing these tags together with their respective audios for human inspection. \n The device also records readings from temperature, humidity, and light sensors to link audio with the real world, quantifying exactly how the environment affects species' behaviours. `,
-      timeframedescription: 'September 2022',
+      image: 'modulo0.jpg',
+      longdescription: `I was part of a team of four that developed moduLo. \n \n 
+      We built a sensor module that uses the Helium Network to measure Temperature, Humidity, eCO2 and Hydrogen Levels in the air
+      We designed and 3d printed a case, which contains a custom PCB. It uses an ESP32, RFM9X radio, DHT11 Sensor, SGP30 Sensor along with various other components for power management and I/O. We power it off 4xAA batteries, and it’ll last just over 12 days.`,
+      timeframedescription: 'March 2023',
       longimages: [
-        'agouti1.jpg'
+        'modulo1.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML'],
+      tags: ['Microelectronics','Arduino','School','Helium','IoT'],
       cardstyle: 'dark',
       buttons: [
         {
-          text: 'Read Project',
+          text: 'Read Project Writeup',
           color: 'success',
           hyperlink:
-            'https://www.hackster.io/team-enigma/project-agouti-df34a4',
+            'https://drive.google.com/file/d/1Jtf9FSWT0lAMqlHmhTK2uYbNZoa9sMMB/view?usp=sharing',
         },
         {
           text: 'Project Github',
           color: 'dark',
           hyperlink:
-            'https://github.com/agouti-acoustics',
+            'https://github.com/dylankainth/CREST-efficienttransmit',
         },
       ],
     },
