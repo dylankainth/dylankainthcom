@@ -6,9 +6,7 @@ export const state = () => ({
       people: { status: 'Group Project', icon: 'groups' },
       type: { status: 'Arduino Hardware', icon: 'memory' },
       image: 'modulo0.jpg',
-      longdescription: `I was part of a team of four that developed moduLo. \n \n 
-      We built a sensor module that uses the Helium Network to measure Temperature, Humidity, eCO2 and Hydrogen Levels in the air
-      We designed and 3d printed a case, which contains a custom PCB. It uses an ESP32, RFM9X radio, DHT11 Sensor, SGP30 Sensor along with various other components for power management and I/O. We power it off 4xAA batteries, and it’ll last just over 12 days.`,
+      longdescription: `I was part of a team of four that developed moduLo. \n \n We built a sensor module that uses the Helium Network to measure Temperature, Humidity, eCO2 and Hydrogen Levels in the air \n \n We designed and 3d printed a case, which contains a custom PCB. It uses an ESP32, RFM9X radio, DHT11 Sensor, SGP30 Sensor along with various other components for power management and I/O. We power it off 4xAA batteries, and it’ll last just over 12 days.`,
       timeframedescription: 'March 2023',
       longimages: [
         'modulo1.jpg'
