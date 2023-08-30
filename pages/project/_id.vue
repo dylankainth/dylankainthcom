@@ -96,6 +96,13 @@
 
 <script>
 export default {
+
+  head() {
+    return {
+ title : 'Dylan Kainth > ' + this.projectdata.title
+    }
+   
+  },
   data() {
     return {
       description: '',

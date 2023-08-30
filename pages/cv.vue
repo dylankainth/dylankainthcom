@@ -14,7 +14,13 @@ export default {
         downloadCV() {
             window.location = "https://docs.google.com/document/d/1HqRWw8HQaI-LCIO5_st4aAvzexoVRe3nKUFekwO_tPA/export?format=pdf"
         }
+    },
+    head() {
+    return {
+        title : 'Dylan Kainth > CV'
     }
+    
+  },
 }
 </script>
 
