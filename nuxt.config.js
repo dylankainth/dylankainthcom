@@ -63,6 +63,9 @@ export default {
   },
   image: {
     // Options
-  }
+  },
+  plugins: [{
+    src: '~/plugins/gtag.js'
+ }]
 
 }
