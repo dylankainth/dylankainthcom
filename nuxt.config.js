@@ -69,6 +69,6 @@ export default {
     src: '~/plugins/gtag.js'
  }],
 
- target: 'static'
+ ssr: false
 
 }
