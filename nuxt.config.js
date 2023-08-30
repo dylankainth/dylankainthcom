@@ -48,8 +48,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
-    '@nuxt/image',
-    '@nuxtjs/google-analytics'
+    '@nuxt/image'
   
   ],
 
