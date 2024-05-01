@@ -1,6 +1,40 @@
 export const state = () => ({
   projects: {
-    
+    '76100306-4f24-41c7-a217-243f916f2b21': {
+      title: 'Air Pollution Sensor',
+      people: { status: 'Personal Project', icon: 'person' },
+      type: { status: 'ESP32 Hardware', icon: 'memory' },
+      image: '20240201_114546.jpg',
+      longdescription: `For my Design and Technology A-Level, I made an Air Pollution Sensor module. \n \n The sensor uses a custom designed ESP32-based control board connected to various modules. \n \n Data is transmitted over WiFi every 5 hours to a MongoDB and Netlify Service. \n \n This project was made for the ExCeL convention centre in East London`,
+      timeframedescription: 'March 2024',
+      longimages: [
+        '20240201_114500.jpg',
+        '20240325_134527.jpg'
+      ],
+      tags: ['Microelectronics','Arduino','School','IoT', 'Esp32'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Read Project Writeup',
+          color: 'success',
+          hyperlink:
+            'https://drive.google.com/file/d/1WD90wZ1ov6k9Smuvuso7LhB9yfZIKpyk/view?usp=sharing',
+        },
+        {
+          text: 'Project Github (Hardware)',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/dylankainth/BadalSense-Pollution',
+        },
+        {
+          text: 'Project Github (Server)',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/dylankainth/badalsense-pollution-website',
+        },
+      ],
+    },
+
     '76100306-4f24-41c7-a717-243f946f2b21': {
       title: 'moduLo',
       people: { status: 'Group Project', icon: 'groups' },
