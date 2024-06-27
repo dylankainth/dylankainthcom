@@ -32,9 +32,6 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -67,7 +64,13 @@ export default {
   },
   plugins: [{
     src: '~/plugins/gtag.js'
- }],
+ }, {src: '~/plugins/fontawesome.js'}],
+
+ // Modify nuxt.config.js adding to the `css` and `plugins` sections.
+css: [
+  '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
+ 
 
  ssr: false
 

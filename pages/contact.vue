@@ -27,7 +27,7 @@
             <a href="mailto:dylan@dylankainth.com" class="contactlink" target="_blank">
               <div class="row align-items-start">
                 <div class="col-1">
-                  <i class="fa-solid fa-envelope-open"></i>
+                  <font-awesome-icon icon="fas fa-envelope-open" />
                 </div>
                 <div class="col-11">dylan@dylankainth.com</div>
               </div>
@@ -36,7 +36,8 @@
             <a href="https://www.linkedin.com/in/dylan-kainth-455636112/" class="contactlink" target="_blank">
               <div class="row align-items-start">
                 <div class="col-1">
-                  <i class="fa-brands fa-linkedin"></i>
+                  <font-awesome-icon icon="fab fa-linkedin" />
+                
                 </div>
                 <div class="col-11">Dylan Kainth</div>
               </div>
@@ -45,7 +46,8 @@
             <a href="https://github.com/dylankainth" class="contactlink" target="_blank">
               <div class="row align-items-start">
                 <div class="col-1">
-                  <i class="fa-brands fa-github"></i>
+                  <font-awesome-icon icon="fab fa-github" />
+                  
                 </div>
                 <div class="col-11">dylankainth</div>
               </div>
@@ -54,7 +56,8 @@
             <a href="https://stackoverflow.com/users/11615112/dylank46" class="contactlink" target="_blank">
               <div class="row align-items-start">
                 <div class="col-1">
-                  <i class="fa-brands fa-stack-overflow"></i>
+                  <font-awesome-icon icon="fab fa-stack-overflow" />
+            
                 </div>
                 <div class="col-11">dylank46</div>
               </div>
@@ -105,7 +108,7 @@
         <a href="tel:+447880986879" class="contactlink" target="_blank">
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-solid fa-phone"></i>
+              <font-awesome-icon icon="fas fa-phone" />
             </div>
             <div class="col-11">+44 78809 86879</div>
           </div>
@@ -114,7 +117,7 @@
         <a href="https://twitter.com/dylanka1nth" class="contactlink" target="_blank">
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-brands fa-twitter"></i>
+              <font-awesome-icon icon="fab fa-twitter" />
             </div>
             <div class="col-11">dylanka1nth</div>
           </div>
@@ -123,7 +126,8 @@
         <a href="https://www.instagram.com/dylanka1nth/" class="contactlink" target="_blank">
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-brands fa-instagram"></i>
+              <font-awesome-icon icon="fab fa-instagram" />
+          
             </div>
             <div class="col-11">dylanka1nth</div>
           </div>
@@ -132,7 +136,8 @@
         <a href="https://www.reddit.com/user/DylanK46/" class="contactlink" target="_blank">
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-brands fa-reddit"></i>
+              <font-awesome-icon icon="fab fa-reddit" />
+          
             </div>
             <div class="col-11">DylanK46</div>
           </div>
@@ -141,7 +146,8 @@
         <a href="mailto:kainth.dylan@gmail.com" class="contactlink" target="_blank">
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-solid fa-envelope-open"></i>
+              <font-awesome-icon icon="fas fa-envelope-open" />
+        
             </div>
             <div class="col-11">kainth.dylan@gmail.com</div>
           </div>
@@ -154,7 +160,7 @@
         >
           <div class="row align-items-start">
             <div class="col-1">
-              <i class="fa-brands fa-snapchat"></i>
+              <font-awesome-icon icon="fab fa-snapchat" />
             </div>
             <div class="col-11">dylan-kainth</div>
           </div>
@@ -183,7 +189,7 @@
             <a href="https://www.buymeacoffee.com/dylank" class="contactlink" target="_blank">
               <div class="row align-items-start">
                 <div class="col-1">
-                  <i class="fas fa-coffee"></i>
+                  <font-awesome-icon icon="fas fa-coffee" />
                 </div>
                 <div class="col-11">dylank</div>
               </div>
