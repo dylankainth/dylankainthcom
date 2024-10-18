@@ -41,6 +41,44 @@
     </div>
 
     <div
+      v-if="$route.params.tag == 'RIE'"
+      class="p-5 mb-4 rounded-3 shadow"
+      style="background-color: #FFFFFF; color: #000000; font-family: Poppins"
+    >
+      <div class="container-fluid py-5">
+        <div class="row my-4">
+          <div class="col">       
+            <center>  
+            <img src="~assets/images/kcllogo.png" width="auto" height="150px">
+          </center> 
+          </div>
+            
+          <div class="col">            
+            <center>  
+            <img src="~assets/images/rielogo.png" width="auto" height="150px">
+          </center> 
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col my-auto">
+            <h1 class="display-5 fw-bold kclprimaryfont">Research in Electronics Society</h1>
+            <h4 class="kclsecondaryfont">Projects are available on their Instagram.</h4>
+          </div>
+          <div class="col my-auto">
+            <div
+              class="h-100 p-5 rounded-3 shadow d-flex flex-column"
+              style="background-color:#E2231A"
+            >
+              <h1 style="color: #FFFFFF" class="kclsecondaryfont">Visit RIE on KCLSU.</h1>
+              <a type="button" class="btn btn-outline-light btn-lg kclprimaryfont" href="https://www.kclsu.org/groups/activities/join/rie/">Let's Go</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
       v-if="$route.params.tag == 'School'"
       class="p-5 mb-4 rounded-3 shadow"
       style="background-color: #7a7d7d; color: white; font-family: Poppins"
@@ -114,5 +152,23 @@ export default {
 
 .primarystyledcard:hover {
   background-position: 50% 65%;
+}
+
+@font-face {
+    font-family: 'Kings Caslon Display Italic';
+    src: url('~assets/fonts/KingsCaslonDisplayItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kings Bureau Grot 37';
+  src: url('~assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
+}
+
+.kclprimaryfont {
+  font-family: 'Kings Bureau Grot 37';
+}
+
+.kclsecondaryfont {
+  font-family: 'Kings Caslon Display Italic';
 }
 </style>

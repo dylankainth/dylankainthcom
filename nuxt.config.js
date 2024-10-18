@@ -1,4 +1,10 @@
+const fs = require('node:fs');
+
 export default {
+  generate: {
+    crawler: true
+  },
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Dylan Kainth',
@@ -57,7 +63,8 @@ export default {
   },
 
   markdownit: {
-    runtime: true // Support `$md()`
+    runtime: true, // Support `$md()`
+    html: true
   },
   image: {
     // Options

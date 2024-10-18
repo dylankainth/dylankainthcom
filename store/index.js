@@ -1,5 +1,81 @@
 export const state = () => ({
   projects: {
+    '76100306-4f24-41c7-a217-24321264bb22': {
+      title: 'Talking Microwave',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'RPi Hardware', icon: 'memory' },
+      image: '20241013_172212.jpg',
+      longdescription: `<div class="container my-1">
+      <p class="lead">
+                For the 2024 <a href="https://terriblehack.com">Terrible Ideas Hackathon</a> at Imperial College London, we produced a microwave that requires you to flirt with it to turn on.
+            </p>
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-6 col-md-6 col-12 text-center">
+            <video width="100%" height="auto" controls>
+                <source src="/microwave.webm" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <p>Depending on how well you flirt, the microwave will turn on for longer. It also provides 'sassy' verbal feedback over a speaker.</p>
+            <p>The system works by using a Raspberry Pi 3, attached to a USB Microphone and AUX Speaker. The Pi connects to a button which the user holds while attempting to flirt, and a SSR to control the microwave. We leveraged Google Cloud Speech-to-Text and Text-to-Speech API's to process natural language to understand what the user was saying and to give the microwave a voice.</p>
+            <p><a href="https://github.com/binaryYuki/">Tony</a> created an API with a model to perform sentiment analysis and generate reply text.</p>
+            <p>This project was made in a group of 7. We won 2nd place!</p>
+        </div>
+    </div>
+</div>
+
+`,
+      timeframedescription: 'October 2024',
+      longimages: [
+        '20241013_172212.jpg',
+        '20241013_172214.jpg',
+      ],
+      tags: ['Raspberry Pi','University','RIE', 'Google Cloud', 'IoT', 'ML', 'AI'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'See project on Instagram (@fez.infocus)',
+          color: 'light',
+          hyperlink:
+            'https://www.instagram.com/p/DBCDaZjqRaz/',
+        },
+        {
+          text: 'Project Github (Server/Raspberry Pi)',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/binaryyuki/crazy',
+        },
+      ],
+    },
+
+    '76100306-4f24-41c7-a717-243f946f2b21': {
+      title: 'moduLo',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'Arduino Hardware', icon: 'memory' },
+      image: 'modulo0.jpg',
+      longdescription: `I was part of a team of four that developed moduLo. \n \n We built a sensor module that uses the Helium Network to measure Temperature, Humidity, eCO2 and Hydrogen Levels in the air \n \n We designed and 3d printed a case, which contains a custom PCB. It uses an ESP32, RFM9X radio, DHT11 Sensor, SGP30 Sensor along with various other components for power management and I/O. We power it off 4xAA batteries, and it’ll last just over 12 days.`,
+      timeframedescription: 'March 2023',
+      longimages: [
+        'modulo1.jpg'
+      ],
+      tags: ['Microelectronics','Arduino','School','Helium','IoT'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Read Project Writeup',
+          color: 'success',
+          hyperlink:
+            'https://drive.google.com/file/d/1Jtf9FSWT0lAMqlHmhTK2uYbNZoa9sMMB/view?usp=sharing',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/dylankainth/CREST-efficienttransmit',
+        },
+      ],
+    },
     '76100306-4f24-41c7-a217-243f916f2b21': {
       title: 'Air Pollution Sensor',
       people: { status: 'Personal Project', icon: 'person' },
@@ -73,7 +149,7 @@ export const state = () => ({
       longimages: [
         'agouti1.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML'],
+      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML', 'Raspberry Pi'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -455,3 +531,4 @@ export const state = () => ({
 
   },
 })
+
