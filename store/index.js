@@ -31,7 +31,7 @@ export const state = () => ({
         '20241013_172212.jpg',
         '20241013_172214.jpg',
       ],
-      tags: ['Raspberry Pi','University','RIE', 'Google Cloud', 'IoT', 'ML', 'AI'],
+      tags: ['Raspberry Pi','University','RIE', 'Google Cloud', 'IoT', 'ML', 'AI', 'Event'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -107,6 +107,44 @@ export const state = () => ({
           color: 'dark',
           hyperlink:
             'https://github.com/dylankainth/badalsense-pollution-website',
+        },
+      ],
+    },
+
+    '76100306-4f24-421a-a717-243f946f2b21': {
+      title: 'Lovelace Hackathon',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'Event', icon: 'calendar' },
+      image: 'lovelacehackathon.png',
+      longdescription: `
+      <p>
+      In February 2024, me and some friends organised and ran an online international Hackathon for 150 students aged 15-18 across 10+ schools. \n
+      A team of 7 of us worked to create the questions, and develop/run a website to manage the Hackathon. \n
+      The Hackathon Style was puzzle-solving based, as opposed to project based. It was a in teams to solve as many puzzle problems as possbile in 24 hours, later extended. \n
+      I Built a platform in Nuxt.JS framework to manage users, teams and 20+ Hackathon puzzles.  \n
+      I also hosted a user sandbox environment for testing and automarking of solutions. Users could send their code for auto marking on our server with safeguarding to protect our system such as time complexity and algorithm isolation. \n
+      We used a Grist server on DigitalOcean hosted through Docker as a datastore; Ran a backend using Express.JS as Nuxt.JS 2 Middleware. \n
+      <a href="https://github.com/s3yoonpark">Andrew</a> crashed my server.
+      </p>
+      `,
+      timeframedescription: 'February 2024',
+      longimages: [
+        'lovelacehackathon.png'
+      ],
+      tags: ['Event','Docker','Nuxt','Vue','School'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Read the Question Booklet',
+          color: 'success',
+          hyperlink:
+            '/Lovelace Hackathon-2024-Booklet.pdf',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/harrow-css/lovelace-hackathon',
         },
       ],
     },
@@ -281,7 +319,7 @@ export const state = () => ({
       longdescription: `I wired up a LCD screen to my ESP32. I then managed to get it to display weather data from openweathermap and the current song playing on Spotify through the Spotify API `,
       timeframedescription: 'March 2022',
       longimages: ['esplcd0.jpg'],
-      tags: ['Esp32','api','Spotify','Microelectronics','Arduino'],
+      tags: ['Esp32','Spotify','Microelectronics','Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
