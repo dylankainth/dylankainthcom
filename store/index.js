@@ -117,7 +117,7 @@ export const state = () => ({
       type: { status: 'Event', icon: 'calendar' },
       image: 'lovelacehackathon.png',
       longdescription: `
-    
+    <p class="lead">
       In February 2024, me and some friends organised and ran an online international Hackathon for 150 students aged 15-18 across 10+ schools. \n
       A team of 7 of us worked to create the questions, and develop/run a website to manage the Hackathon. \n
       The Hackathon Style was puzzle-solving based, as opposed to project based. It was a in teams to solve as many puzzle problems as possbile in 24 hours, later extended. \n
@@ -125,7 +125,7 @@ export const state = () => ({
       I also hosted a user sandbox environment for testing and automarking of solutions. Users could send their code for auto marking on our server with safeguarding to protect our system such as time complexity and algorithm isolation. \n
       We used a Grist server on DigitalOcean hosted through Docker as a datastore; Ran a backend using Express.JS as Nuxt.JS 2 Middleware. \n
       <a href="https://github.com/s3yoonpark">Andrew</a> crashed my server.
-    
+    </p>
       `,
       timeframedescription: 'February 2024',
       longimages: [
