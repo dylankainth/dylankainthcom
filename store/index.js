@@ -1,5 +1,32 @@
 export const state = () => ({
   projects: {
+    '6100306-4f24-41c7-a717-243z946f2b20': {
+      title: 'FashTrack',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'Website', icon: 'web' },
+      image: 'fashtrack.png',
+      longdescription: `We made a website that helps people in the fashion industry apply for jobs. We used a Nuxt.JS 3.0 website with a Serverless Functions backend to serve the site. A mongoDB database was used in the backend. \n \n This project was made for the CMCI Hackathon 2024 (CultureHack)`,
+      timeframedescription: 'November 2024',
+      longimages: [
+        'fashtrack.png'
+      ],
+      tags: ['Vue','Nuxt','Bootstrap','University'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Visit live deployment',
+          color: 'success',
+          hyperlink:
+            'https://fashtrack.netlify.app',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/dylankainth/fashtrack',
+        },
+      ],
+    },
     '76100306-4f24-41c7-a217-24321264bb22': {
       title: 'Talking Microwave',
       people: { status: 'Group Project', icon: 'groups' },
