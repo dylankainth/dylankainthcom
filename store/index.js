@@ -1,5 +1,32 @@
 export const state = () => ({
   projects: {
+    '6100306-4f24-41c7-a717-243z926f2b20': {
+      title: 'HolyStick',
+      people: { status: 'Group Project', icon: 'groups' },
+      type: { status: 'Website', icon: 'web' },
+      image: 'holystick0.png',
+      longdescription: `We made a website that helps you compare AI models. We used a Flask site to serve models made in pandas. This was for the Holistic AI UCL Hackathon 2024`,
+      timeframedescription: 'November 2024',
+      longimages: [
+        'holystick0.png'
+      ],
+      tags: ['Vue', 'Bootstrap', 'University', 'Python', 'Flask', 'AI', 'ML'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'Visit live deployment',
+          color: 'success',
+          hyperlink:
+            'https://holystick.dylankainth.com',
+        },
+        {
+          text: 'Project Github',
+          color: 'dark',
+          hyperlink:
+            'https://github.com/dylankainth/holystick',
+        },
+      ],
+    },
     '6100306-4f24-41c7-a717-243z946f2b20': {
       title: 'FashTrack',
       people: { status: 'Group Project', icon: 'groups' },
@@ -10,7 +37,7 @@ export const state = () => ({
       longimages: [
         'fashtrack.png'
       ],
-      tags: ['Vue','Nuxt','Bootstrap','University'],
+      tags: ['Vue', 'Nuxt', 'Bootstrap', 'University'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -58,7 +85,7 @@ export const state = () => ({
         '20241013_172212.jpg',
         '20241013_172214.jpg',
       ],
-      tags: ['Raspberry Pi','University','RIE', 'Google Cloud', 'IoT', 'ML', 'AI', 'Event'],
+      tags: ['Raspberry Pi', 'University', 'RIE', 'Google Cloud', 'IoT', 'ML', 'AI', 'Event'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -86,7 +113,7 @@ export const state = () => ({
       longimages: [
         'modulo1.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','Helium','IoT'],
+      tags: ['Microelectronics', 'Arduino', 'School', 'Helium', 'IoT'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -114,7 +141,7 @@ export const state = () => ({
         '20240201_114500.jpg',
         '20240325_134527.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','IoT', 'Esp32'],
+      tags: ['Microelectronics', 'Arduino', 'School', 'IoT', 'Esp32'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -170,7 +197,7 @@ export const state = () => ({
       longimages: [
         'lovelacehackathon.png'
       ],
-      tags: ['Event','Docker','Nuxt','Vue','School'],
+      tags: ['Event', 'Docker', 'Nuxt', 'Vue', 'School'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -198,7 +225,7 @@ export const state = () => ({
       longimages: [
         'modulo1.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','Helium','IoT'],
+      tags: ['Microelectronics', 'Arduino', 'School', 'Helium', 'IoT'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -226,7 +253,7 @@ export const state = () => ({
       longimages: [
         'agouti1.jpg'
       ],
-      tags: ['Microelectronics','Arduino','School','Team Enigma','Environment','AI','ML', 'Raspberry Pi'],
+      tags: ['Microelectronics', 'Arduino', 'School', 'Team Enigma', 'Environment', 'AI', 'ML', 'Raspberry Pi'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -243,8 +270,8 @@ export const state = () => ({
         },
       ],
     },
-    
-    
+
+
 
     '1eeef068-0ca3-4b89-bba1-265e711692ba': {
       title: 'Vertex Racing Website',
@@ -254,7 +281,7 @@ export const state = () => ({
       longdescription: `I built the website for the F1 in Schools team Vertex Racing`,
       timeframedescription: 'June 2022',
       longimages: ['vertex1.png'],
-      tags: ['Vertex','f1s','Vue','Nuxt','Bootstrap','School'],
+      tags: ['Vertex', 'f1s', 'Vue', 'Nuxt', 'Bootstrap', 'School'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -280,7 +307,7 @@ export const state = () => ({
       longdescription: `I made an image detection website with ML5.js that detects objects in the webcam and uses a tensorflow model to guess what they are.`,
       timeframedescription: 'May 2022',
       longimages: ['webcam1.png'],
-      tags: ['Nuxt','Tensorflow','Bootstrap','ML5.js','ML','AI','Vue'],
+      tags: ['Nuxt', 'Tensorflow', 'Bootstrap', 'ML5.js', 'ML', 'AI', 'Vue'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -306,7 +333,7 @@ export const state = () => ({
       longdescription: `I made a sentiment analysis website. The user inputs a string of text and it uses an ML5.js and Tensorflow model to calculate the sentiment of the passage. \n \n It is run in a Docker container on my home server, so it may have unreliable uptime.`,
       timeframedescription: 'May 2022',
       longimages: ['sentiment1.png'],
-      tags: ['Nuxt','Tensorflow','Bootstrap','ML5.js','ML','AI','Vue'],
+      tags: ['Nuxt', 'Tensorflow', 'Bootstrap', 'ML5.js', 'ML', 'AI', 'Vue'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -331,8 +358,8 @@ export const state = () => ({
       image: 'communityday0.png',
       longdescription: `I helped develop the website for the Harrow School Harrow and the Hill Community Day event. `,
       timeframedescription: 'April 2022',
-      longimages: ['communityday1.jpg','communityday2.png','communityday3.png','communityday4.jpg'],
-      tags: ['HTML','Github Pages','CSS','School'],
+      longimages: ['communityday1.jpg', 'communityday2.png', 'communityday3.png', 'communityday4.jpg'],
+      tags: ['HTML', 'Github Pages', 'CSS', 'School'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -358,7 +385,7 @@ export const state = () => ({
       longdescription: `I wired up a LCD screen to my ESP32. I then managed to get it to display weather data from openweathermap and the current song playing on Spotify through the Spotify API `,
       timeframedescription: 'March 2022',
       longimages: ['esplcd0.jpg'],
-      tags: ['Esp32','Spotify','Microelectronics','Arduino'],
+      tags: ['Esp32', 'Spotify', 'Microelectronics', 'Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -370,7 +397,7 @@ export const state = () => ({
         {
           text: 'Reddit Post',
           color: 'danger',
-          hyperlink : 'https://www.reddit.com/r/electronics/comments/tt9dw8/esp32_connected_to_a_16x2_lcd_display/'
+          hyperlink: 'https://www.reddit.com/r/electronics/comments/tt9dw8/esp32_connected_to_a_16x2_lcd_display/'
         }
       ],
     },
@@ -383,7 +410,7 @@ export const state = () => ({
       longdescription: `I built the Enimga Questions website. It allows people to answer computational-based challenge questions written by Team Enigma`,
       timeframedescription: 'March 2022',
       longimages: ['te0.png'],
-      tags: ['Nuxt','Vue','Team Enigma','School'],
+      tags: ['Nuxt', 'Vue', 'Team Enigma', 'School'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -409,9 +436,9 @@ export const state = () => ({
       longdescription: `I made CanvasGuesser as a School Summer Project. It is a clone of [skribbl.io](https://skribbl.io/) \n \n It uses websockets to communicate to a Docker container inside a Linux Server. It uses the HTML canvas element for drawing and uses python-flask as a backend \n \n Unfortunately, I've shut it down. But I'd like to start it up again at some point, watch this space.`,
       timeframedescription: 'September 2021',
       longimages: [
-        'canvasguesser1.png','canvasguesser2.png'
+        'canvasguesser1.png', 'canvasguesser2.png'
       ],
-      tags: ['Docker','Websockets','Canvas','Python','Flask'],
+      tags: ['Docker', 'Websockets', 'Canvas', 'Python', 'Flask'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -437,7 +464,7 @@ export const state = () => ({
       longdescription: `I set up the on-board computer for the Greenpower team Silver Arrow Racing. It uses an MXCHIP IoT devkit to connect to thingsboard hosted on AWS EC2.`,
       timeframedescription: 'September 2022',
       longimages: ['silverarrowcomputer1.png'],
-      tags: ['MXCHIP','IoT','AWS','Thingsboard','AZ3166','Microelectronics','Greenpower','School', 'Arduino'],
+      tags: ['MXCHIP', 'IoT', 'AWS', 'Thingsboard', 'AZ3166', 'Microelectronics', 'Greenpower', 'School', 'Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -491,7 +518,7 @@ export const state = () => ({
         'Project Eco tried to give the community the power to sustain the environment and inspire people to take action against its effects on mental well-being through our AI technology. \n During the development of this project, our team has found strong links between air quality and mental health. \n We aimed to predict such changes in our environment and give users the ability and knowledge to reduce the effects of pollutants, ensuring a cleaner and healthier future for all of us. \n \n **I was lead developer of Project Eco** and was responsible for desingning the server architecture and creating the website frontend in collaboration with [Filamity](https://ifal.dev). [PerceptronV](https://perceptronv.github.io/) constructed the AI model that we used in this project. \n \n We used a MEVN Stack, which used Node.js, Express.js, Vue.js and Node.js. Bootstrap was used in the frontend. \n \n Project Eco has been shut down',
       timeframedescription: 'July 2021',
       longimages: ['projecteco1.png'],
-      tags: ['Environment', 'Esp32', 'MongoDB', 'Team Enigma', 'School','Microelectronics'],
+      tags: ['Environment', 'Esp32', 'MongoDB', 'Team Enigma', 'School', 'Microelectronics'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -521,7 +548,7 @@ export const state = () => ({
       longdescription: `In early November 2020, metallic monoliths began appearing around the world; I worked with an international team to moderate and manage Monolith Mapper, a website-forum to catalog the monolith appearances around the world. \n \n We used a classification system developed on Reddit by [u/walkyou](https://www.reddit.com/user/Walkyou). \n \n The system architecture is based on Drupal. I built a Docker-Flask application that interfaces with the API to make PDF exports of the entire wiki.`,
       timeframedescription: 'December 2020',
       longimages: [
-        'monolith1.png','monolith2.png','monolith3.png'
+        'monolith1.png', 'monolith2.png', 'monolith3.png'
       ],
       tags: ['Drupal'],
       cardstyle: 'dark',
@@ -537,7 +564,7 @@ export const state = () => ({
           color: 'secondary',
           hyperlink: 'https://discord.gg/HnXyYk6Vcb',
         },
-    
+
       ],
     },
     '0421647f-1d63-47b5-929c-87dc70a4f456': {
@@ -548,9 +575,9 @@ export const state = () => ({
       longdescription: `**HomerDash aims to convert your homer YAML into a Dashmachine .ini config file, saving hours of re-writing.** \n \n [Homer](https://github.com/bastienwirtz/homer) is a simple static  *HOM*epage for your serv*ER*  to keep your services on hand, customisable from a simple  '.yaml'  configuration file. \n [Dashmachine](https://github.com/rmountjoy92/DashMachine) is another application bookmark dashboard, with fun features and is configurable from a '.ini' file. \n \n **HomerDash** is a **python** utility tool that allows the conversion of **Homer '.yaml' files** to  **Dashmachine '.ini' files.**`,
       timeframedescription: 'December 2020',
       longimages: [
-        'homerdash0.png','homerdash1.png','homerdash2.png'
+        'homerdash0.png', 'homerdash1.png', 'homerdash2.png'
       ],
-      tags: ['Python','Self-Hosted','Docker' ],
+      tags: ['Python', 'Self-Hosted', 'Docker'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -570,9 +597,9 @@ export const state = () => ({
       longdescription: `When Do I Come Home hosted various countdown clocks towards the school holidays for various schools. \n \n It has unfortunately, been shut down.`,
       timeframedescription: 'November 2019',
       longimages: [
-        'whendoicomehome1.png','whendoicomehome2.png'
+        'whendoicomehome1.png', 'whendoicomehome2.png'
       ],
-      tags: ['CSS','HTML'],
+      tags: ['CSS', 'HTML'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -594,7 +621,7 @@ export const state = () => ({
       longimages: [
         'legofuntitled1.png'
       ],
-      tags: ['CSS','HTML','JS','Phaser'],
+      tags: ['CSS', 'HTML', 'JS', 'Phaser'],
       cardstyle: 'dark',
       buttons: [
         {
