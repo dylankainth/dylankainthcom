@@ -1,10 +1,40 @@
 const fs = require('node:fs');
+// import data from /store/index.js
+const { state } = require('./store/index.js');
 
 export default {
-  generate: {
-    crawler: true
+
+  router: {
+    extendRoutes(routes, resolve) {
+      var projects = state().projects
+      Object.keys(projects).forEach((project) => {
+        routes.push({
+          name: project,
+          path: '/project/' + project,
+        })
+      })
+
+      // make a set of tags
+      let tags = new Set()
+      // for each project, add tags to the set
+      Object.keys(projects).forEach((project) => {
+        projects[project].tags.forEach((tag) => {
+          tags.add(tag)
+        })
+      })
+
+      // for each tag, add a route
+      tags.forEach((tag) => {
+        routes.push({
+          name: tag,
+          path: '/tag/' + tag,
+        })
+      })
+
+    }
+
   },
-  
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Dylan Kainth',
@@ -44,7 +74,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    /* '@nuxt/image', if static */ 
+    /* '@nuxt/image', if static */
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -52,7 +82,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
     '@nuxt/image'
-  
+
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -71,14 +101,14 @@ export default {
   },
   plugins: [{
     src: '~/plugins/gtag.js'
- }, {src: '~/plugins/fontawesome.js'}],
+  }, { src: '~/plugins/fontawesome.js' }],
 
- // Modify nuxt.config.js adding to the `css` and `plugins` sections.
-css: [
-  '@fortawesome/fontawesome-svg-core/styles.css'
+  // Modify nuxt.config.js adding to the `css` and `plugins` sections.
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
- 
 
- ssr: false
+
+  ssr: false
 
 }
