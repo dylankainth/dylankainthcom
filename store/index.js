@@ -1,5 +1,26 @@
 export const state = () => ({
   projects: {
+    '6100306-4f24-42c1-a717-243z926f2b20': {
+      title: 'Pi Motor Hat',
+      people: { status: 'Personal Project', icon: 'person' },
+      type: { status: 'PCB Hardware', icon: 'developer_board' },
+      image: '20250114_165620.jpg',
+      longdescription: `<p class="lead"> As part of the architecture for the robot we’re developing for this year’s <a href="https://unibots.uk/">UniBots UK</a> competition, I designed a custom PCB Hat for the Raspberry Pi 5.</p> \n \n This PCB Hat facilitates the control of six 12V DC motors and three 5V servo motors while also supplying power to the Raspberry Pi at 5V and approximately 3.5A. The entire system is powered by a single 12V source, significantly simplifying the circuitry and streamlining the robot's design process. \n \n To provide the 12V supply, we plan to use a 3S LiPo battery. An XT-60 connector serves as the input to the system, ensuring a secure and robust connection. \n \n A <a href="https://item.szlcsc.com/309710.html"> TPS5450-based</a> buck regulator efficiently steps the 12V input down to 5V for the Raspberry Pi, while an LD1117AL linear voltage regulator supplies a stable 5V for the servo motors. \n \n I sent the PCB design for manufacturing to <a href="https://jlcpcb.com">JLCPCB</a> and sourced the components from <a href="https://lcsc.com/">LCSC</a>. Once the parts arrived, I assembled and hand-soldered the PCB in the university’s makerspace.`,
+      timeframedescription: 'January 2025',
+      longimages: [
+        '20250114_165503.jpg', '20250113_095106.jpg', '20250114_165620.jpg', '20250113_095117.jpg', '20250114_165603.jpg'
+      ],
+      tags: ['University', 'Electronics', 'Raspberry Pi', 'RIE'],
+      cardstyle: 'dark',
+      buttons: [
+        {
+          text: 'See Project on OSHW Lab',
+          color: 'primary',
+          hyperlink:
+            'https://oshwlab.com/kainth.dylan/pitest',
+        },
+      ],
+    },
     '6100306-4f24-41c7-a717-243z926f2b20': {
       title: 'HolyStick',
       people: { status: 'Group Project', icon: 'groups' },
@@ -113,7 +134,7 @@ export const state = () => ({
       longimages: [
         'modulo1.jpg'
       ],
-      tags: ['Microelectronics', 'Arduino', 'School', 'Helium', 'IoT'],
+      tags: ['Electronics', 'Arduino', 'School', 'Helium', 'IoT'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -141,7 +162,7 @@ export const state = () => ({
         '20240201_114500.jpg',
         '20240325_134527.jpg'
       ],
-      tags: ['Microelectronics', 'Arduino', 'School', 'IoT', 'Esp32'],
+      tags: ['Electronics', 'Arduino', 'School', 'IoT', 'Esp32'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -225,7 +246,7 @@ export const state = () => ({
       longimages: [
         'modulo1.jpg'
       ],
-      tags: ['Microelectronics', 'Arduino', 'School', 'Helium', 'IoT'],
+      tags: ['Electronics', 'Arduino', 'School', 'Helium', 'IoT'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -253,7 +274,7 @@ export const state = () => ({
       longimages: [
         'agouti1.jpg'
       ],
-      tags: ['Microelectronics', 'Arduino', 'School', 'Team Enigma', 'Environment', 'AI', 'ML', 'Raspberry Pi'],
+      tags: ['Electronics', 'Arduino', 'School', 'Team Enigma', 'Environment', 'AI', 'ML', 'Raspberry Pi'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -385,7 +406,7 @@ export const state = () => ({
       longdescription: `I wired up a LCD screen to my ESP32. I then managed to get it to display weather data from openweathermap and the current song playing on Spotify through the Spotify API `,
       timeframedescription: 'March 2022',
       longimages: ['esplcd0.jpg'],
-      tags: ['Esp32', 'Spotify', 'Microelectronics', 'Arduino'],
+      tags: ['Esp32', 'Spotify', 'Electronics', 'Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -464,7 +485,7 @@ export const state = () => ({
       longdescription: `I set up the on-board computer for the Greenpower team Silver Arrow Racing. It uses an MXCHIP IoT devkit to connect to thingsboard hosted on AWS EC2.`,
       timeframedescription: 'September 2022',
       longimages: ['silverarrowcomputer1.png'],
-      tags: ['MXCHIP', 'IoT', 'AWS', 'Thingsboard', 'AZ3166', 'Microelectronics', 'Greenpower', 'School', 'Arduino'],
+      tags: ['MXCHIP', 'IoT', 'AWS', 'Thingsboard', 'AZ3166', 'Electronics', 'Greenpower', 'School', 'Arduino'],
       cardstyle: 'dark',
       buttons: [
         {
@@ -518,7 +539,7 @@ export const state = () => ({
         'Project Eco tried to give the community the power to sustain the environment and inspire people to take action against its effects on mental well-being through our AI technology. \n During the development of this project, our team has found strong links between air quality and mental health. \n We aimed to predict such changes in our environment and give users the ability and knowledge to reduce the effects of pollutants, ensuring a cleaner and healthier future for all of us. \n \n **I was lead developer of Project Eco** and was responsible for desingning the server architecture and creating the website frontend in collaboration with [Filamity](https://ifal.dev). [PerceptronV](https://perceptronv.github.io/) constructed the AI model that we used in this project. \n \n We used a MEVN Stack, which used Node.js, Express.js, Vue.js and Node.js. Bootstrap was used in the frontend. \n \n Project Eco has been shut down',
       timeframedescription: 'July 2021',
       longimages: ['projecteco1.png'],
-      tags: ['Environment', 'Esp32', 'MongoDB', 'Team Enigma', 'School', 'Microelectronics'],
+      tags: ['Environment', 'Esp32', 'MongoDB', 'Team Enigma', 'School', 'Electronics'],
       cardstyle: 'dark',
       buttons: [
         {
